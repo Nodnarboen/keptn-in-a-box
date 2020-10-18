@@ -101,25 +101,26 @@ installationBundleDemo() {
   certmanager_install=false
   certmanager_enable=false
 
-  keptn_install=true
-  keptn_examples_clone=true
-  resources_clone=true
+  keptn_install=false
+  keptn_examples_clone=false
+  resources_clone=false
 
   dynatrace_savecredentials=true
   dynatrace_configure_monitoring=true
   dynatrace_activegate_install=true
   dynatrace_configure_workloads=true
 
-  keptndeploy_homepage=true
-  keptndemo_cartsload=true
-  keptndemo_unleash=true
-  keptndemo_cartsonboard=true
-  expose_kubernetes_api=true
-  expose_kubernetes_dashboard=true
-  patch_kubernetes_dashboard=true
-  keptn_bridge_disable_login=true
+  keptndeploy_homepage=false
+  keptndemo_cartsload=false
+  keptndemo_unleash=false
+  keptndemo_cartsonboard=false
+  expose_kubernetes_api=false
+  expose_kubernetes_dashboard=false
+  patch_kubernetes_dashboard=false
+  keptn_bridge_disable_login=false
   # By default no WorkshopUser will be created
-  create_workshop_user=false
+  enable_registry=true
+  create_workshop_user=true
 }
 
 installationBundleWorkshop() {
