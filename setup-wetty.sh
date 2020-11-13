@@ -1,4 +1,5 @@
-
+#!/bin/bash
+# This file contains the functions for installing Wetty for Ubuntu
 
 # commands to install yarn
 
